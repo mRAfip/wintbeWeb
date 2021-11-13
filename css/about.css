@@ -1,0 +1,2463 @@
+url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+
+
+.col-5 html {
+  scroll-behavior: smooth;
+}
+
+html{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body
+{
+
+  line-height: 26px;
+  font-size: 15px;
+  font-family: "poppins";
+  font-weight: 400;
+   color: #777777;
+   width: 100vw;
+  overflow-x: hidden;
+
+
+
+
+
+}
+
+.sticky {
+  position: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+ {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  }
+@media only screen and (min-width:1366px){
+    /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:transparent;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#fff;
+                font-family: 'Raleway';
+                font-size:28px;
+                background:none;
+                float: left;
+                margin-left:200px;
+                font-weight:bold;
+
+
+
+            }
+            #logo_nav{
+            margin-right:10px;
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Raleway';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:20px;
+                 font-weight:bold;
+
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:80px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 5px;
+
+            }
+            #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+/* ---------------------- start partner part-------------------------------------*/
+
+
+#partner_section{
+background-color:#fff;
+}
+
+.parallax2 {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+
+   background-image: url(../images/about_banner.png);
+ /*background-image:url("https://images.pexels.com/photos/3182775/pexels-photo-3182775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#partner_head{
+  color: white;
+  font-size: 6em;
+  font-family: "poppins";
+  font-weight:900;
+  float:bottom;
+  margin-top:250px;
+  width:50%;
+  margin-left:100px;
+}
+#partner_head span {
+  background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, 0.3) 35%)
+}
+
+#partner_para{
+ font-family: "poppins";
+
+  color: white;
+  font-size: 1.25em;
+   width:40%;
+    margin-left:100px;
+    margin-top:40px;
+}
+
+
+
+    #hello {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background: linear-gradient(90deg, #E20558, #EF5B23);
+      border: none;
+      border-radius: 10px;
+      margin-left:100px;
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+    }
+        #hello:hover {
+            background-color: #fff;
+            color:#fff;
+            font-family: 'Poppins';
+            margin-left:100px;
+            }
+
+
+/* ---------------------- end partner part-------------------------------------*/
+
+
+/* ---------------------- start ceo_talk part-------------------------------------*/
+
+#talk_area{
+padding-left:100px;
+padding-right:100px;
+padding-top:260px;
+padding-bottom:260px;
+}
+
+#ceo_words{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+text-align:center;
+
+}
+
+.card_ceo_img {
+  width: 60px;
+  height:60px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card_ceo_img .card_ceo_img_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+}
+
+.card_ceo_img .card_ceo_img_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 30px;
+  object-fit: cover;
+
+
+}
+
+#ceo_name{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:20px;
+
+text-align:center;
+
+
+}
+#ceo_position{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:10px;
+text-align:center;
+}
+#company_name{
+color:#000;
+font-family: 'Raleway';
+font-size:1.85rem;
+background:none;
+font-weight:bold;
+
+}
+
+/* ---------------------- End ceo_talk part-------------------------------------*/
+
+
+/* ---------------------- start company_intro part-------------------------------------*/
+#company_intro{
+background-color:#F3F4F4;
+
+padding-top:200px;
+padding-bottom:200px;
+}
+
+
+#company_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:2rem;
+margin-top:200px;
+font-weight:bold;
+width:80%;
+
+
+}
+
+.horizontal_line{
+height:3px;
+width:15%;
+background-color:#000;
+margin-top:35px;
+}
+#company_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:50px;
+width:80%;
+}
+
+
+            /*------------------------ start tour section----------------- */
+
+#office_tour{
+color:#000;
+
+font-size:1rem;
+font-family: "poppins";
+font-weight:bold;
+margin-top:100px;
+}
+
+#final_contact_div_border{
+width:100%;
+height:250px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+margin-bottom:30px;
+
+
+}
+
+#final_contact_div_border_2{
+width:100%;
+height:360px;
+ border: none
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_border_2_1{
+width:100%;
+height:250px;
+ border:none;
+
+border-radius:10px;
+
+
+
+}
+
+#final_contact_div_border_2_2{
+width:100%;
+height:340px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_line{
+width:100%;
+height:1px;
+ border: 1rem solid #fff;
+border-width:1px;
+border-radius:10px;
+margin-top:20px;
+}
+
+
+.card_final_contact {
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+
+
+}
+
+.card_final_contact .card_final_contact_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+
+.card_final_contact .card_final_contact_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 10px;
+  object-fit: cover;
+
+
+}
+
+            /*------------------------ end tour section----------------- */
+/* ---------------------- end company_intro part-------------------------------------*/
+
+
+
+
+/* ---------------------- Workspace_intro part-------------------------------------*/
+
+
+
+.company_worplace{
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+
+ background-image: url(../images/about_banner2.png);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workspace_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:2rem;
+margin-top:150px;
+font-weight:bold;
+width:80%;
+
+
+}
+
+
+#workspace_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:50px;
+width:80%;
+}
+
+  #work_space_brn {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background-color:#008489;
+      border: none;
+      border-radius: 10px;
+
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+    }
+        #work_space_brn:hover {
+            background-color: #000;
+            color:#fff;
+            font-family: 'Poppins';
+
+            }
+
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background-color: #fff;
+                 width:100%;
+
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #000;
+                margin-top:100px;
+
+
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+}
+@media only screen and (min-width:991px) and (max-width:1365px){
+   /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:transparent;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#fff;
+                font-family: 'Raleway';
+                font-size:28px;
+                background:none;
+                float: left;
+                margin-left:200px;
+                font-weight:bold;
+
+
+
+            }
+            #logo_nav{
+            margin-right:10px;
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Raleway';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:20px;
+                 font-weight:bold;
+
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:80px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 5px;
+
+            }
+            #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+/* ---------------------- start partner part-------------------------------------*/
+
+
+#partner_section{
+background-color:#fff;
+}
+
+.parallax2 {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+
+ /* background-image: url(../images/parallax2.png);*/
+  background-image: url(../images/about_banner.png);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-60px;
+}
+
+
+
+#partner_head{
+  color: white;
+  font-size: 3em;
+  font-family: "poppins";
+  font-weight:900;
+  float:bottom;
+  margin-top:230px;
+  width:70%;
+  margin-left:100px;
+}
+#partner_head span {
+  background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, 0.3) 35%)
+}
+
+#partner_para{
+ font-family: "poppins";
+  color: white;
+  font-size: 1em;
+   width:40%;
+    margin-left:100px;
+    margin-top:20px;
+}
+
+
+
+    #hello {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background: linear-gradient(90deg, #E20558, #EF5B23);
+      border: none;
+      border-radius: 10px;
+      margin-left:100px;
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+    }
+        #hello:hover {
+            background-color: #fff;
+            color:#fff;
+            font-family: 'Poppins';
+            margin-left:100px;
+            }
+
+
+/* ---------------------- end partner part-------------------------------------*/
+
+
+/* ---------------------- start ceo_talk part-------------------------------------*/
+
+#talk_area{
+padding-left:100px;
+padding-right:100px;
+padding-top:160px;
+padding-bottom:160px;
+}
+
+#ceo_words{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+
+text-align:center;
+
+}
+
+.card_ceo_img {
+  width: 60px;
+  height:60px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card_ceo_img .card_ceo_img_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+}
+
+.card_ceo_img .card_ceo_img_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 30px;
+  object-fit: cover;
+
+
+}
+
+#ceo_name{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:20px;
+
+text-align:center;
+
+
+}
+#ceo_position{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:10px;
+text-align:center;
+}
+#company_name{
+color:#000;
+font-family: 'Pacifico';
+font-size:1rem;
+background:none;
+
+}
+
+/* ---------------------- End ceo_talk part-------------------------------------*/
+
+
+/* ---------------------- start company_intro part-------------------------------------*/
+#company_intro{
+background-color:#F3F4F4;
+
+padding-top:200px;
+padding-bottom:200px;
+}
+
+
+#company_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:2rem;
+margin-top:200px;
+font-weight:bold;
+width:80%;
+
+
+}
+
+.horizontal_line{
+height:3px;
+width:15%;
+background-color:#000;
+margin-top:35px;
+}
+#company_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:50px;
+width:80%;
+}
+
+
+            /*------------------------ start tour section----------------- */
+
+#office_tour{
+color:#000;
+
+font-size:1rem;
+font-family: "poppins";
+font-weight:bold;
+margin-top:100px;
+}
+
+#final_contact_div_border{
+width:100%;
+height:250px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+margin-bottom:30px;
+
+
+}
+
+#final_contact_div_border_2{
+width:100%;
+height:360px;
+ border: none
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_border_2_1{
+width:100%;
+height:250px;
+ border:none;
+
+border-radius:10px;
+
+
+
+}
+
+#final_contact_div_border_2_2{
+width:100%;
+height:340px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_line{
+width:100%;
+height:1px;
+ border: 1rem solid #fff;
+border-width:1px;
+border-radius:10px;
+margin-top:20px;
+}
+
+
+.card_final_contact {
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+
+
+}
+
+.card_final_contact .card_final_contact_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+
+.card_final_contact .card_final_contact_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 10px;
+  object-fit: cover;
+
+
+}
+
+            /*------------------------ end tour section----------------- */
+/* ---------------------- end company_intro part-------------------------------------*/
+
+
+
+
+/* ---------------------- Workspace_intro part-------------------------------------*/
+
+
+
+.company_worplace{
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(../images/about_banner2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workspace_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:2rem;
+margin-top:150px;
+font-weight:bold;
+width:80%;
+
+
+}
+
+
+#workspace_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:50px;
+width:80%;
+}
+
+  #work_space_brn {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background-color:#008489;
+      border: none;
+      border-radius: 10px;
+
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+    }
+        #work_space_brn:hover {
+            background-color: #000;
+            color:#fff;
+            font-family: 'Poppins';
+
+            }
+
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background-color: #fff;
+                 width:100%;
+
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #000;
+                margin-top:100px;
+
+
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+ /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:40px;
+
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:80px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+
+/* ---------------------- start partner part-------------------------------------*/
+
+
+#partner_section{
+background-color:#fff;
+}
+
+.parallax2 {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(../images/about_banner.png);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-60px;
+}
+
+
+
+#partner_head{
+  color: white;
+  font-size: 2em;
+  font-family: "poppins";
+  font-weight:900;
+  float:bottom;
+  margin-top:220px;
+  width:60%;
+  margin-left:100px;
+}
+#partner_head span {
+  background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, 0.3) 35%)
+}
+
+#partner_para{
+ font-family: "poppins";
+
+  color: white;
+  font-size: 1em;
+   width:40%;
+    margin-left:100px;
+    margin-top:20px;
+}
+
+
+
+    #hello {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background: linear-gradient(90deg, #E20558, #EF5B23);
+      border: none;
+      border-radius: 10px;
+      margin-left:100px;
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+      margin-top:-10px;
+    }
+        #hello:hover {
+            background-color: #fff;
+            color:#fff;
+            font-family: 'Poppins';
+            margin-left:100px;
+                  margin-top:-10px;
+            }
+
+
+/* ---------------------- end partner part-------------------------------------*/
+
+
+/* ---------------------- start ceo_talk part-------------------------------------*/
+
+#talk_area{
+padding-left:100px;
+padding-right:100px;
+padding-top:160px;
+padding-bottom:160px;
+}
+
+#ceo_words{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+
+text-align:center;
+
+}
+
+.card_ceo_img {
+  width: 60px;
+  height:60px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card_ceo_img .card_ceo_img_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+}
+
+.card_ceo_img .card_ceo_img_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 30px;
+  object-fit: cover;
+
+
+}
+
+#ceo_name{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:20px;
+
+text-align:center;
+
+
+}
+#ceo_position{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:10px;
+text-align:center;
+}
+#company_name{
+color:#000;
+font-family: 'Pacifico';
+font-size:1rem;
+background:none;
+
+}
+
+/* ---------------------- End ceo_talk part-------------------------------------*/
+
+
+/* ---------------------- start company_intro part-------------------------------------*/
+#company_intro{
+background-color:#F3F4F4;
+
+padding-top:130px;
+padding-bottom:130px;
+}
+
+
+#company_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:1.5rem;
+margin-top:100px;
+font-weight:bold;
+width:80%;
+
+
+}
+
+.horizontal_line{
+height:3px;
+width:15%;
+background-color:#000;
+margin-top:25px;
+}
+#company_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:30px;
+width:80%;
+}
+
+
+            /*------------------------ start tour section----------------- */
+
+#office_tour{
+color:#000;
+
+font-size:1rem;
+font-family: "poppins";
+font-weight:bold;
+margin-top:60px;
+}
+
+#final_contact_div_border{
+width:100%;
+height:130px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+margin-bottom:30px;
+
+
+}
+
+#final_contact_div_border_2{
+width:100%;
+height:200px;
+ border: none
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_border_2_1{
+width:100%;
+height:130px;
+ border:none;
+
+border-radius:10px;
+
+
+
+}
+
+#final_contact_div_border_2_2{
+width:100%;
+height:200px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_line{
+width:100%;
+height:1px;
+ border: 1rem solid #fff;
+border-width:1px;
+border-radius:10px;
+margin-top:20px;
+}
+
+
+.card_final_contact {
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+
+
+}
+
+.card_final_contact .card_final_contact_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+
+.card_final_contact .card_final_contact_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 10px;
+  object-fit: cover;
+
+
+}
+
+            /*------------------------ end tour section----------------- */
+/* ---------------------- end company_intro part-------------------------------------*/
+
+
+
+
+/* ---------------------- Workspace_intro part-------------------------------------*/
+
+
+
+.company_worplace{
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+ background-image: url(../images/about_banner2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workspace_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:2rem;
+margin-top:90px;
+font-weight:bold;
+width:80%;
+
+
+}
+
+
+#workspace_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:30px;
+width:80%;
+}
+
+  #work_space_brn {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background-color:#008489;
+      border: none;
+      border-radius: 10px;
+
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+    }
+        #work_space_brn:hover {
+            background-color: #000;
+            color:#fff;
+            font-family: 'Poppins';
+
+            }
+
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background-color: #fff;
+                 width:100%;
+
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #000;
+                margin-top:100px;
+
+
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+}
+@media only screen and (min-width:577px) and (max-width:767px){
+ /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:40px;
+
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:30px;
+
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+
+/* ---------------------- start partner part-------------------------------------*/
+
+
+#partner_section{
+background-color:#fff;
+}
+
+.parallax2 {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(../images/about_banner.png);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-60px;
+}
+
+
+
+#partner_head{
+  color: white;
+  font-size: 2em;
+  font-family: "poppins";
+  font-weight:900;
+  float:bottom;
+  margin-top:220px;
+  width:60%;
+  margin-left:100px;
+}
+#partner_head span {
+  background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, 0.3) 35%)
+}
+
+#partner_para{
+ font-family: "poppins";
+
+  color: white;
+  font-size: 0.9em;
+   width:50%;
+    margin-left:100px;
+    margin-top:2px;
+}
+
+
+
+    #hello {
+      color: #fff;
+      height: 2.85em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background: linear-gradient(90deg, #E20558, #EF5B23);
+      border: none;
+      border-radius: 10px;
+      margin-left:100px;
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+      margin-top:-10px
+    }
+        #hello:hover {
+            background-color: #fff;
+            color:#fff;
+            font-family: 'Poppins';
+            margin-left:100px;
+            }
+
+
+/* ---------------------- end partner part-------------------------------------*/
+
+
+/* ---------------------- start ceo_talk part-------------------------------------*/
+
+#talk_area{
+padding-left:100px;
+padding-right:100px;
+padding-top:160px;
+padding-bottom:160px;
+}
+
+#ceo_words{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+
+text-align:center;
+
+}
+
+.card_ceo_img {
+  width: 60px;
+  height:60px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card_ceo_img .card_ceo_img_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+}
+
+.card_ceo_img .card_ceo_img_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 30px;
+  object-fit: cover;
+
+
+}
+
+#ceo_name{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:20px;
+
+text-align:center;
+
+
+}
+#ceo_position{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:10px;
+text-align:center;
+}
+#company_name{
+color:#000;
+font-family: 'Pacifico';
+font-size:1rem;
+background:none;
+
+}
+
+/* ---------------------- End ceo_talk part-------------------------------------*/
+
+
+/* ---------------------- start company_intro part-------------------------------------*/
+#company_intro{
+background-color:#F3F4F4;
+
+padding-top:160px;
+padding-bottom:160px;
+}
+
+
+#company_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:1.5rem;
+margin-top:130px;
+font-weight:bold;
+width:90%;
+margin-left:20px;
+
+
+}
+
+.horizontal_line{
+height:3px;
+width:15%;
+background-color:#000;
+margin-top:25px;
+margin-left:20px;
+}
+#company_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:30px;
+width:80%;
+margin-left:20px;
+}
+
+
+            /*------------------------ start tour section----------------- */
+
+#office_tour{
+color:#000;
+
+font-size:1rem;
+font-family: "poppins";
+font-weight:bold;
+margin-top:50px;
+}
+
+#final_contact_div_border{
+width:100%;
+height:130px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+margin-bottom:30px;
+
+
+}
+
+#final_contact_div_border_2{
+width:100%;
+height:200px;
+ border: none
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_border_2_1{
+width:100%;
+height:130px;
+ border:none;
+
+border-radius:10px;
+
+
+
+}
+
+#final_contact_div_border_2_2{
+width:100%;
+height:200px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_line{
+width:100%;
+height:1px;
+ border: 1rem solid #fff;
+border-width:1px;
+border-radius:10px;
+margin-top:20px;
+}
+
+
+.card_final_contact {
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+
+
+}
+
+.card_final_contact .card_final_contact_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+
+.card_final_contact .card_final_contact_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 10px;
+  object-fit: cover;
+
+
+}
+
+            /*------------------------ end tour section----------------- */
+/* ---------------------- end company_intro part-------------------------------------*/
+
+
+
+
+/* ---------------------- Workspace_intro part-------------------------------------*/
+
+
+#company_intro{
+padding-top:160px;
+padding-bottom:160px;
+
+}
+
+
+.company_worplace{
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+
+ background-image: url(../images/about_banner2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workspace_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:2rem;
+margin-top:50px;
+font-weight:bold;
+width:80%;
+margin-left:20px;
+
+
+}
+
+
+#workspace_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:30px;
+width:80%;
+margin-left:20px;
+}
+
+  #work_space_brn {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background-color:#008489;
+      border: none;
+      border-radius: 10px;
+
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+      margin-left:20px;
+    }
+        #work_space_brn:hover {
+            background-color: #000;
+            color:#fff;
+            font-family: 'Poppins';
+
+            }
+
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background-color: #fff;
+                 width:100%;
+
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #000;
+                margin-top:100px;
+
+
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+}
+@media only screen and (max-width:576px){
+ /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:40px;
+
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:30px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+
+/* ---------------------- start partner part-------------------------------------*/
+
+
+#partner_section{
+background-color:#fff;
+}
+
+.parallax2 {
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(../images/about_banner.png);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#partner_head{
+  color: white;
+  font-size: 1.75em;
+  font-family: "poppins";
+  font-weight:900;
+  float:bottom;
+  margin-top:150px;
+  width:90%;
+  margin-left:20px;
+}
+#partner_head span {
+  background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, 0.3) 35%)
+}
+
+#partner_para{
+ font-family: "poppins";
+
+  color: white;
+  font-size: 0.9rem;
+   width:90%;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+
+
+    #hello {
+      color: #fff;
+      height: 2.5em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background: linear-gradient(90deg, #E20558, #EF5B23);
+      border: none;
+      border-radius: 10px;
+      margin-left:20px;
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+      margin-top:-10px;
+    }
+        #hello:hover {
+            background-color: #fff;
+            color:#fff;
+            font-family: 'Poppins';
+            margin-left:100px;
+            }
+
+
+/* ---------------------- end partner part-------------------------------------*/
+
+
+/* ---------------------- start ceo_talk part-------------------------------------*/
+
+#talk_area{
+padding-left:50px;
+padding-right:50px;
+padding-top:160px;
+padding-bottom:160px;
+}
+
+#ceo_words{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+
+text-align:center;
+
+}
+
+.card_ceo_img {
+  width: 60px;
+  height:60px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card_ceo_img .card_ceo_img_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+}
+
+.card_ceo_img .card_ceo_img_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 30px;
+  object-fit: cover;
+
+
+}
+
+#ceo_name{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:20px;
+
+text-align:center;
+
+
+}
+#ceo_position{
+color:#000;
+font-family: 'Poppins';
+font-size:1rem;
+margin-top:10px;
+text-align:center;
+}
+#company_name{
+color:#000;
+font-family: 'Pacifico';
+font-size:1rem;
+background:none;
+
+}
+
+/* ---------------------- End ceo_talk part-------------------------------------*/
+
+
+/* ---------------------- start company_intro part-------------------------------------*/
+#company_intro{
+background-color:#F3F4F4;
+
+padding-top:100px;
+padding-bottom:100px;
+}
+
+
+#company_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:1.5rem;
+
+font-weight:bold;
+width:80%;
+margin-left:20px;
+
+
+}
+
+.horizontal_line{
+height:3px;
+width:15%;
+background-color:#000;
+margin-top:35px;
+margin-left:20px;
+}
+#company_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:20px;
+width:80%;
+margin-left:20px;
+}
+
+
+            /*------------------------ start tour section----------------- */
+
+#office_tour{
+color:#000;
+
+font-size:1rem;
+font-family: "poppins";
+font-weight:bold;
+margin-top:50px;
+}
+
+#final_contact_div_border{
+width:100%;
+height:150px;
+ border:none;
+border-radius:10px;
+margin-top:20px;
+margin-bottom:30px;
+
+
+}
+
+#final_contact_div_border_2{
+width:100%;
+height:200px;
+ border: none
+border-radius:10px;
+margin-top:20px;
+
+
+}
+#final_contact_div_border_2_1{
+width:100%;
+height:150px;
+ border:none;
+
+border-radius:10px;
+
+
+
+}
+
+#final_contact_div_border_2_2{
+width:100%;
+height:200px;
+ border:none;
+border-radius:10px;
+
+
+
+}
+#final_contact_div_line{
+width:100%;
+height:1px;
+ border: 1rem solid #fff;
+border-width:1px;
+border-radius:10px;
+
+}
+
+
+.card_final_contact {
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+
+
+}
+
+.card_final_contact .card_final_contact_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+
+.card_final_contact .card_final_contact_image img {
+  width: inherit;
+  height: inherit;
+ border-radius: 10px;
+  object-fit: cover;
+
+
+}
+
+            /*------------------------ end tour section----------------- */
+/* ---------------------- end company_intro part-------------------------------------*/
+
+
+
+
+/* ---------------------- Workspace_intro part-------------------------------------*/
+
+
+
+.company_worplace{
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(../images/about_banner2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workspace_intro_head{
+color:#000;
+
+font-family: 'Poppins';
+font-size:1.5rem;
+margin-top:90px;
+font-weight:bold;
+width:80%;
+margin-left:20px;
+
+
+}
+
+
+#workspace_intro_para{
+color:#000;
+font-family: 'Poppins';
+font-size:0.9rem;
+margin-top:30px;
+width:80%;
+margin-left:20px;
+}
+
+  #work_space_brn {
+      color: #fff;
+      height: 3em;
+      width: auto;
+      padding: 1.5em auto;
+      margin: 1em auto;
+      background-color:#008489;
+      border: none;
+      border-radius: 10px;
+
+      transition: all 0.2s cubic-bezier(.4,0,.2,1);
+      padding-left:20px;
+      padding-right:20px;
+      font-family: 'Poppins';
+      font-weight:bold;
+      font-size:1em;
+      margin-left:20px;
+    }
+        #work_space_brn:hover {
+            background-color: #000;
+            color:#fff;
+            font-family: 'Poppins';
+
+            }
+
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background-color: #fff;
+                 width:100%;
+
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #000;
+                margin-top:100px;
+
+
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+}
+
+

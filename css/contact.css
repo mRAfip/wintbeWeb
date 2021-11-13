@@ -1,0 +1,1233 @@
+url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+
+
+.col-5 html {
+  scroll-behavior: smooth;
+}
+
+html{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body
+{
+
+  line-height: 26px;
+
+  font-family: "poppins";
+
+   color: #777777;
+   width: 100vw;
+  overflow-x: hidden;
+
+
+
+
+
+}
+
+.sticky {
+  position: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+ {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  }
+
+@media only screen and (min-width:1366px){
+
+
+  /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:270px;
+
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#fff;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:250px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+
+
+            /*------------------------ end contact section----------------- */
+
+
+#address_section{
+background-color:#000;
+padding-top:200px;
+
+
+}
+
+#address_head{
+color:#fff;
+font-size:7rem;
+font-family: "poppins";
+font-weight:bold;
+text-align:center
+
+}
+
+.card_chat {
+  width: 30px;
+  height:30px;
+
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:200px;
+
+
+}
+
+.card_chat .card_chat_image {
+  width: inherit;
+  height: inherit;
+
+}
+
+.card_chat .card_chat_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+
+
+}
+
+#vertical_line{
+background-color:#fff;
+width:2px;
+height:180px;
+margin-top:200px;
+margin-left:30px;
+}
+
+#adrs_para{
+color:#fff;
+font-size:1rem;
+font-family: "poppins";
+
+margin-top:200px;
+}
+#mail{
+color:#fff;
+font-size:2rem;
+font-family: "poppins";
+margin-top:20px;
+}
+
+.card_social {
+  width: 35px;
+  height:35px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+
+  border-radius:8px;
+
+
+}
+
+.card_social .card_social_image {
+  width: inherit;
+  height: inherit;
+
+
+}
+
+.card_social .card_social_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+
+
+}
+
+#number{
+color:#fff;
+font-size:2rem;
+font-family: "poppins";
+margin-top:40px;
+}
+
+
+            /*------------------------ end contact section----------------- */
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background-color: #000;
+                 width:100%;
+
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #fff;
+                margin-top:100px;
+
+
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+}
+@media only screen and (min-width:991px) and (max-width:1365px){
+  /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:40px;
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:80px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+             #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+            /*------------------------ start address section----------------- */
+#address_section{
+background-color:#000;
+padding-top:200px;
+padding-bottom:200px;
+
+
+}
+
+#address_head{
+color:#fff;
+font-size:8rem;
+font-family: "poppins";
+font-weight:bold;
+text-align:center
+
+}
+
+.card_chat {
+  width: 30px;
+  height:30px;
+
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:200px;
+
+
+}
+
+.card_chat .card_chat_image {
+  width: inherit;
+  height: inherit;
+
+}
+
+.card_chat .card_chat_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+
+
+}
+
+#vertical_line{
+background-color:#fff;
+width:2px;
+height:180px;
+margin-top:200px;
+margin-left:30px;
+}
+
+#adrs_para{
+color:#fff;
+font-size:1rem;
+font-family: "poppins";
+
+margin-top:200px;
+}
+#mail{
+color:#fff;
+font-size:2rem;
+font-family: "poppins";
+margin-top:20px;
+}
+
+.card_social {
+  width: 35px;
+  height:35px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+
+  border-radius:8px;
+
+
+}
+
+.card_social .card_social_image {
+  width: inherit;
+  height: inherit;
+
+
+}
+
+.card_social .card_social_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+
+
+}
+
+#number{
+color:#fff;
+font-size:2rem;
+font-family: "poppins";
+margin-top:40px;
+
+}
+            /*------------------------ End address section----------------- */
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background: #000;
+                 width:100%;
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #fff;
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+
+   /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:40px;
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:80px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+             #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+
+            /*------------------------ start address section----------------- */
+#address_section{
+background-color:#000;
+padding-top:200px;
+padding-bottom:150px;
+
+
+}
+
+#address_head{
+color:#fff;
+font-size:5rem;
+font-family: "poppins";
+font-weight:bold;
+text-align:center
+
+}
+
+.card_chat {
+  width: 30px;
+  height:30px;
+
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:130px;
+
+
+}
+
+.card_chat .card_chat_image {
+  width: inherit;
+  height: inherit;
+
+}
+
+.card_chat .card_chat_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+
+
+}
+
+#vertical_line{
+background-color:#fff;
+width:2px;
+height:180px;
+margin-top:130px;
+margin-left:30px;
+}
+
+#adrs_para{
+color:#fff;
+font-size:1rem;
+font-family: "poppins";
+
+margin-top:130px;
+}
+#mail{
+color:#fff;
+font-size:1.5rem;
+font-family: "poppins";
+margin-top:20px;
+}
+
+.card_social {
+  width: 30px;
+  height:30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+
+  border-radius:8px;
+
+
+}
+
+.card_social .card_social_image {
+  width: inherit;
+  height: inherit;
+
+
+}
+
+.card_social .card_social_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+
+
+}
+
+#number{
+color:#fff;
+font-size:2rem;
+font-family: "poppins";
+margin-top:40px;
+
+}
+            /*------------------------ End address section----------------- */
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background: #000;
+                 width:100%;
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #fff;
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+
+
+
+}
+@media only screen and (min-width:577px) and (max-width:767px){
+
+
+
+    /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:40px;
+
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:80px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+
+            /*------------------------ start address section----------------- */
+#address_section{
+background-color:#000;
+padding-top:200px;
+padding-bottom:150px;
+
+
+}
+
+#address_head{
+color:#fff;
+font-size:5rem;
+font-family: "poppins";
+font-weight:bold;
+text-align:center
+
+}
+
+.card_chat {
+  width: 30px;
+  height:30px;
+
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:130px;
+
+
+}
+
+.card_chat .card_chat_image {
+  width: inherit;
+  height: inherit;
+
+}
+
+.card_chat .card_chat_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+
+
+}
+
+#vertical_line{
+background-color:#fff;
+width:2px;
+height:180px;
+margin-top:130px;
+margin-left:30px;
+}
+
+#adrs_para{
+color:#fff;
+font-size:1rem;
+font-family: "poppins";
+
+margin-top:130px;
+}
+#mail{
+color:#fff;
+font-size:1.5rem;
+font-family: "poppins";
+margin-top:20px;
+}
+
+.card_social {
+  width: 30px;
+  height:30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:30px;
+
+  border-radius:8px;
+
+
+}
+
+.card_social .card_social_image {
+  width: inherit;
+  height: inherit;
+
+
+}
+
+.card_social .card_social_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+
+
+}
+
+#number{
+color:#fff;
+font-size:2rem;
+font-family: "poppins";
+margin-top:40px;
+
+}
+            /*------------------------ End address section----------------- */
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background: #000;
+                 width:100%;
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #fff;
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+}
+@media only screen and (max-width:576px){
+    /* ---------------------- navigation part-------------------------------------*/
+
+    #navigation{
+
+    background-color:#fff;
+    padding-top:30px;
+    padding-bottom:20px;
+    }
+
+
+            #navbar-brand_logo {
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+                margin-left:40px;
+
+
+            }
+
+            #offcanvasNavbarLabel{
+                color:#000;
+                font-family: 'Pacifico';
+                font-size:22px;
+                background:none;
+                float: left;
+
+            }
+
+            #toggle_button{
+
+            width: 47px;
+            height: 34px;
+            background-color: transparent;
+            border:none;
+            margin-right:20px;
+            }
+
+            #toggle_button .line1{
+            width: 50%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+
+            #toggle_button .line2{
+            width: 75%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+            #toggle_button .line3{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 5px;
+
+            }
+             #menu_img{
+               margin-right:30px;
+               margin-left:20px;
+               margin-bottom:30px;
+            }
+            #nav-link{
+                color:#000;
+                 font-family: "poppins";
+                  font-weight:bold;
+               font-size:1rem;
+               margin-bottom:30px;
+
+            }
+
+
+/* ---------------------- end navigation part-------------------------------------*/
+
+
+            /*------------------------ start address section----------------- */
+#address_section{
+background-color:#000;
+padding-top:100px;
+padding-bottom:100px;
+
+
+}
+
+#address_head{
+color:#fff;
+font-size:3rem;
+font-family: "poppins";
+font-weight:bold;
+text-align:center
+
+}
+
+.card_chat {
+  width: 30px;
+  height:30px;
+
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:100px;
+  margin-left:30px;
+
+
+}
+
+.card_chat .card_chat_image {
+  width: inherit;
+  height: inherit;
+
+}
+
+.card_chat .card_chat_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+
+
+}
+
+#vertical_line{
+background-color:#fff;
+width:180px;
+height:2px;
+margin-top:20px;
+margin-left:30px;
+}
+
+#adrs_para{
+color:#fff;
+font-size:1rem;
+font-family: "poppins";
+margin-left:30px;
+margin-top:20px;
+width:80%;
+}
+#mail{
+color:#fff;
+font-size:1.5rem;
+font-family: "poppins";
+margin-top:20px;
+margin-left:30px;
+}
+
+.card_social {
+  width: 30px;
+  height:30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top:25px;
+
+  border-radius:8px;
+  margin-left:30px;
+
+
+}
+
+.card_social .card_social_image {
+  width: inherit;
+  height: inherit;
+
+
+}
+
+.card_social .card_social_image img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+
+
+}
+
+#number{
+color:#fff;
+font-size:1.5rem;
+font-family: "poppins";
+margin-top:40px;
+margin-left:30px;
+
+}
+            /*------------------------ End address section----------------- */
+
+            /*------------------------ start footer section----------------- */
+
+               #footer_home{
+                 background: #000;
+                 width:100%;
+
+
+
+                }
+
+               .new1{
+                border-top: 1px solid #fff;
+                }
+
+
+
+
+
+                #ftr_head_clm{
+                margin-bottom:15px;
+                text-align: center;
+
+                }
+
+                #copy_about{
+                 color: #5F6368;
+                 text-align:center;
+                 margin-top:30px;
+
+                }
+
+                #social_icon_home{
+                 color: #5F6368;
+                  padding: 0 25px;
+                  font-size: 1rem;
+                  margin-top:30px;
+
+                }
+
+                #socialmedia_footer_home{
+                   text-align:center;
+                }
+
+
+
+ /*------------------------ end footer section----------------- */
+
+}
